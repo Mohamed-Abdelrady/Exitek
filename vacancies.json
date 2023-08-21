@@ -1,0 +1,116 @@
+[
+  {
+    "title":"Junior iOS Developer",
+    "description":"1Short description what is junio ios developer BP Mobile is an industry-leading company that develops and publishes mobile-first products using cutting-edge innovations. Our top apps include iScanner, FindMe, Second Phone Number, and Smart Cleaner.",
+    "responsibilities":[
+      "1Develop an existing product in the Business category",
+      "Assess the tasks at hand and the possibility of their implementation",
+      "Search for the best solutions, select and study technologies, and implement them in the development process",
+      "Interact with the project team (PMs, PdMs, QA, designers, etc.)"
+    ],
+    "requirements":[
+      "1Experience of 5+ years in backend web development Kotlin/Java",
+      "Experience of 2+ years with Kotlin",
+      "Extensive knowledge of RDBMS and SQL",
+      "Basic knowledge of Hibernate",
+      "Deep understanding of OOP and design patterns",
+      "Detailed knowledge of Git",
+      "Experience with CI, DI",
+      "Background in linux servers administration",
+      "Understanding of Docker containers",
+      "Experience with messaging systems like RabbitMQ, Kafka",
+      "At least a pre-Intermediate level of English"
+    ],
+    "benefits":[
+      "1High level of decision-making freedom",
+      "A friendly team of professionals",
+      "A chance to influence the development of our products directly",
+      "A possibility to work remotely",
+      "Medical insurance",
+      "English courses",
+      "Sports reimbursement program",
+      "Compensation for psychological counseling",
+      "Reimbursement of professional courses and trainings",
+      "A variety of corporate events and team-building activities",
+      "5 sick days and other benefits"
+    ],
+    "location":"1This position is fully remote",
+    "salary":"1Monthly gross salary from $1000 to $4000."
+  },
+  {
+    "title":"Mid iOS Developer",
+    "description":"2Short description what is junio ios developer BP Mobile is an industry-leading company that develops and publishes mobile-first products using cutting-edge innovations. Our top apps include iScanner, FindMe, Second Phone Number, and Smart Cleaner.",
+    "responsibilities":[
+      "2Develop an existing product in the Business category",
+      "Assess the tasks at hand and the possibility of their implementation",
+      "Search for the best solutions, select and study technologies, and implement them in the development process",
+      "Interact with the project team (PMs, PdMs, QA, designers, etc.)"
+    ],
+    "requirements":[
+      "2Experience of 5+ years in backend web development Kotlin/Java",
+      "Experience of 2+ years with Kotlin",
+      "Extensive knowledge of RDBMS and SQL",
+      "Basic knowledge of Hibernate",
+      "Deep understanding of OOP and design patterns",
+      "Detailed knowledge of Git",
+      "Experience with CI, DI",
+      "Background in linux servers administration",
+      "Understanding of Docker containers",
+      "Experience with messaging systems like RabbitMQ, Kafka",
+      "At least a pre-Intermediate level of English"
+    ],
+    "benefits":[
+      "2High level of decision-making freedom",
+      "A friendly team of professionals",
+      "A chance to influence the development of our products directly",
+      "A possibility to work remotely",
+      "Medical insurance",
+      "English courses",
+      "Sports reimbursement program",
+      "Compensation for psychological counseling",
+      "Reimbursement of professional courses and trainings",
+      "A variety of corporate events and team-building activities",
+      "5 sick days and other benefits"
+    ],
+    "location":"2This position is fully remote",
+    "salary":"2Monthly gross salary from $1000 to $4000."
+  },
+  {
+    "title":"Marketing Specialist",
+    "description":"Short description what is junio ios developer BP Mobile is an industry-leading company that develops and publishes mobile-first products using cutting-edge innovations. Our top apps include iScanner, FindMe, Second Phone Number, and Smart Cleaner.",
+    "responsibilities":[
+      "Develop an existing product in the Business category",
+      "Assess the tasks at hand and the possibility of their implementation",
+      "Search for the best solutions, select and study technologies, and implement them in the development process",
+      "Interact with the project team (PMs, PdMs, QA, designers, etc.)"
+    ],
+    "requirements":[
+      "Experience of 5+ years in backend web development Kotlin/Java",
+      "Experience of 2+ years with Kotlin",
+      "Extensive knowledge of RDBMS and SQL",
+      "Basic knowledge of Hibernate",
+      "Deep understanding of OOP and design patterns",
+      "Detailed knowledge of Git",
+      "Experience with CI, DI",
+      "Background in linux servers administration",
+      "Understanding of Docker containers",
+      "Experience with messaging systems like RabbitMQ, Kafka",
+      "At least a pre-Intermediate level of English"
+    ],
+    "benefits":[
+      "High level of decision-making freedom",
+      "A friendly team of professionals",
+      "A chance to influence the development of our products directly",
+      "A possibility to work remotely",
+      "Medical insurance",
+      "English courses",
+      "Sports reimbursement program",
+      "Compensation for psychological counseling",
+      "Reimbursement of professional courses and trainings",
+      "A variety of corporate events and team-building activities",
+      "5 sick days and other benefits"
+    ],
+    "location":"This position is fully remote",
+    "salary":"Monthly gross salary from $1000 to $4000."
+  }
+]
