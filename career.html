@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no,user-scalable=0,viewport-fit=cover">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Exitek</title>
+    <link rel="icon" href="img/icons/favicon.ico" type="image/x-icon">
     <!-- styles-->
     <link rel="stylesheet" href="layout/css/main.min.css">
   </head>
-  <body>
+  <body class="active">
     <!-- start loader-->
     <div class="loader"><span class="loader-child"></span></div>
     <!-- end loader-->
@@ -41,9 +42,9 @@
         <!-- start header-->
         <div class="header bottom-circle">
           <div class="container">
-            <div class="text typescript_heading"> 
-              <h1 class="typescript_heading_h1">Be part of our mission</h1>
-              <p class="typescript_heading_h1">We invite you to join us in a journey of innovation and creativity. Our mission is to revolutionize the way people edit and transform visuals using the power of AI technology.</p><a class="view-openings btn btn-blue">View openings</a>
+            <div class="text">
+              <h1>Be part of our mission</h1>
+              <p>We invite you to join us in a journey of innovation and creativity. Our mission is to revolutionize the way people edit and transform visuals using the power of AI technology.</p><a class="view-openings btn btn-blue">View openings</a>
             </div>
           </div>
         </div>
@@ -87,7 +88,7 @@
           <div class="open-position">
             <H2>Open positions</H2>
             <!-- start position one  -->
-            <div class="position">
+            <div class="position" id="position-pop-up" data-index="0">
               <div class="text"> 
                 <h4>Junior iOS Developer</h4>
                 <ul> 
@@ -95,15 +96,15 @@
                     <div class="icon"> <img src="img/icons/location.svg" alt=""></div><span>100% Remote</span>
                   </li>
                   <li>
-                    <div class="icon"> <img src="img/icons/time.svg" alt=""></div><span>full-time</span>
+                    <div class="icon"> <img src="img/icons/time.svg" alt=""></div><span>Full-time</span>
                   </li>
                 </ul>
               </div>
-              <button class="btn btn-transparent small" id="position-pop-up" data-index="0">Apply</button>
+              <button class="btn btn-transparent small">Apply</button>
             </div>
             <!-- end position one  -->
             <!-- start position two  -->
-            <div class="position">
+            <div class="position" id="position-pop-up" href="#" data-index="1">
               <div class="text"> 
                 <h4>Middle iOS Developer</h4>
                 <ul> 
@@ -115,11 +116,11 @@
                   </li>
                 </ul>
               </div>
-              <button class="btn btn-transparent small" id="position-pop-up" data-index="1">Apply</button>
+              <button class="btn btn-transparent small">Apply</button>
             </div>
             <!-- end position two  -->
             <!-- start position three  -->
-            <div class="position">
+            <div class="position" id="position-pop-up" data-index="2">
               <div class="text"> 
                 <h4>Marketing Specialist</h4>
                 <ul> 
@@ -127,11 +128,11 @@
                     <div class="icon"> <img src="img/icons/location.svg" alt=""></div><span>100% Remote</span>
                   </li>
                   <li>
-                    <div class="icon"> <img src="img/icons/time.svg" alt=""></div><span>full-time</span>
+                    <div class="icon"> <img src="img/icons/time.svg" alt=""></div><span>Full-time</span>
                   </li>
                 </ul>
               </div>
-              <button class="btn btn-transparent small" id="position-pop-up" data-index="2">Apply</button>
+              <button class="btn btn-transparent small">Apply</button>
             </div>
             <!-- end position three  -->
           </div>
@@ -168,39 +169,43 @@
                 </ul>
                 <!-- end pop up top body -->
                 <!-- start pop up form-->
-                <form class="form" action="javascript: SubmitForm()" method="POST" id="contact-form">
+                <div class="form">
                   <h2>Join the team</h2>
-                  <div class="input-field"> 
-                    <div class="field">
-                      <input class="form-input" id="name" type="text" name="entry.1437345059">
-                      <label class="input" for="name">Full name</label>
+                  <form method="POST" id="position-form" name="position-form">
+                    <input id="fileContent" type="hidden" value="" name="fileContent">
+                    <input id="filename" type="hidden" value="" name="filename">
+                    <div class="input-field"> 
+                      <div class="field">
+                        <input class="form-input" id="name" type="text" name="name">
+                        <label class="input" for="name">Full name</label>
+                      </div>
+                      <div id="nameCheck">Please enter valid full name</div>
                     </div>
-                    <div id="nameCheck">Please enter valid full name</div>
-                  </div>
-                  <div class="input-field"> 
-                    <div class="field">
-                      <input class="form-input" id="email" type="text" name="entry.308849500">
-                      <label class="input" for="email">Email</label>
+                    <div class="input-field"> 
+                      <div class="field">
+                        <input class="form-input" id="email" type="text" name="email">
+                        <label class="input" for="email">Email</label>
+                      </div>
+                      <div id="emailCheck">Please enter valid email</div>
                     </div>
-                    <div id="emailCheck">Please enter valid email</div>
-                  </div>
-                  <div class="input-field"> 
-                    <div class="field"><textarea id="message" class="form-input" name="entry.2058011735"></textarea>
-                      <label class="textarea" for="message">Message</label>
+                    <div class="input-field"> 
+                      <div class="field"><textarea id="message" class="form-input" name="message"></textarea>
+                        <label class="textarea" for="message">Message</label>
+                      </div>
+                      <div id="messageCheck">Please enter valid Message</div>
                     </div>
-                    <div id="messageCheck">Please enter valid Message</div>
-                  </div>
+                  </form>
                   <div class="input-field"> 
                     <div class="field resume-parent">
-                      <input class="form-input" id="resume" type="file" name="entry.1048566788"><span class="upload-value"></span>
-                      <label class="resume" for="resume"> <span class="text">Resume (optional)</span><span class="icon"> <img src="img/icons/upload.svg" alt=""></span></label>
+                      <input class="resume form-input" id="attach" type="file" name="attach" accept=".xlsx,.xls,.doc, .docx,.ppt, .pptx,.txt,.pdf"><span class="upload-value"></span>
+                      <label class="resume" for="attach"> <span class="text">Resume (optional)</span></label>
                     </div>
                   </div>
-                  <div class="input-field"> <span>By filling in this form you agree to the processing of your personal data by Exitek. Provided data is processed for recruitment purposes. You can withdraw your consent to the processing of your personal data at any time. For more information on your rights and data processing please read our Privacy Policy.</span></div>
+                  <div class="input-field"> <span>By filling in this form you agree to the processing of your personal data by Exitek. Provided data is processed for recruitment purposes. You can withdraw your consent to the processing of your personal data at any time. For more information on your rights and data processing please read our <a href="#">Privacy Policy.</a></span></div>
                   <div class="button">
-                    <button class="btn btn-blue" id="btnSubmit" type="submit">Apply</button>
+                    <input class="btn btn-blue" id="btnSubmit" value="Apply" type="button">
                   </div>
-                </form>
+                </div>
                 <!-- end pop up form-->
               </div>
             </div>
